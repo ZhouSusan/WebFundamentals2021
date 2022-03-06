@@ -1,0 +1,32 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.row {
+    display: flex;
+    max-width: 930px;
+}
+
+.col {
+    flex-grow: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color: powderblue;
+    flex-shrink: 1; 
+
+}
+
+.col-2 {
+    flex-grow: 2;
+    padding: 20px;
+    margin: 10px;
+    background-color: powderblue;
+}
+
+.col-3 {
+    flex-grow: 3;
+    background-color: powderblue;
+    padding: 20px;
+    margin: 10px;
+}

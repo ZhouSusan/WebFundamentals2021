@@ -1,0 +1,44 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#container {
+    width:960px;
+    margin: 40px 20px;
+}
+
+.search {
+    color: teal;
+    width: 125px;
+    border: 1px solid teal;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:4px 2px;
+    border-radius:16px
+}
+
+.plus {
+    background-color: turquoise;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 4px 2px;
+    border-radius:50%;
+    border: none;
+    width: 30px;
+    height: 30px;
+}
+
+.button {
+    color:white;
+    background-color: royalblue;
+    width: 170px;
+    border: 3px solid black;
+    padding: 10px 20px;
+    margin: 4px 2px;
+    box-shadow: 5px 5px 5px black;
+}

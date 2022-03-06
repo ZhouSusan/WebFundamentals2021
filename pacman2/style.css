@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#pacman {
+  background-color: black;
+  height: 40px;
+  width: 35px;
+  display: inline-block;
+  background-image: url("img/pacmanAlpha.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#ms_pacman {
+  background-color: black;
+  height: 36px;
+  width: 35px;
+  display: inline-block;
+  background-image: url("img/mspacmanAlpha.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#clyde {
+  background-color: black;
+  height: 40px;
+  width: 35px;
+  display: inline-block;
+  background-image: url("img/clydeAlpha.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#inky {
+  background-color: black;
+  height: 17px;
+  width: 35px;
+  display: inline-block;
+  background-image: url("img/inkyAlpha.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#pinky {
+  background-color: black;
+  height: 35px;
+  width: 35px;
+  display: inline-block;
+  background-image: url("img/pinky.png");
+  background-size: contain;
+  position: absolute;
+}
+
+#blinky {
+  background-color: black;
+  height: 40px;
+  width: 31px;
+  display: inline-block;
+  background-image: url("img/blinkyAlpha.png");
+  background-size: contain;
+  position: absolute;
+}
+
+.wall {
+  background-color: blue;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+.food {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background-image: url("img/foodAlpha.png");
+  background-size: contain;
+}
+
+.cherries {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+  background-image: url("img/cherryAlpha.png");
+  background-size: contain;
+}
+
+.row {
+  line-height: 0;
+}
+
+.blank {
+  background-color: black;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}

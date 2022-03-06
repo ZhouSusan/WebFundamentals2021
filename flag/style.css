@@ -1,0 +1,30 @@
+#container {
+    width: 908px;
+    height: 600px;
+    padding: 0px;
+    border: none;
+}
+
+.left {
+  background-color: green;
+  height: 600px;
+  width:  300px;
+
+}
+
+.mid {
+    background-color: white;
+    height: 600px;
+    width:  300px;
+
+}
+
+.right {
+    background-color: red;
+    height: 600px;
+    width:  300px;
+}
+
+#container > * {
+    display: inline-block;
+}

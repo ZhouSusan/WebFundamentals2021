@@ -1,0 +1,143 @@
+#container {
+    width: 1200px;
+}
+
+#nav-bar {
+    width: inherit;
+    height: 100px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    bottom: 8px;
+    left: 200px;
+    margin-bottom: 30px;
+}
+
+#header-title {
+    font-size: 400%;
+    position: relative;
+    left: 35px;
+    bottom: 35px;
+}
+
+#search-box {
+    width: 450px;
+    height: 50px;
+    border: 2px solid black;
+    font-size: x-large;
+    font-weight: lighter;
+    position: relative;
+    top: 20px;
+}
+
+#login-btn {
+    font-size: x-large;
+    background-color: rgb(108, 146, 192);
+    border: 3px solid black;
+    box-shadow: 4px 4px 0px 2px black;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 40px;
+    color: white;
+}
+
+#main {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+#left-col {
+    width: 60%;
+}
+
+#right-col {
+    width: 40%;
+}
+
+.content-box {
+    width:680px;
+    height: 250px;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 200px;
+    margin-bottom: 30px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.top-word {
+    font-size: xxx-large;
+    margin-top: 5px;
+}
+
+.mid-word {
+    font-size: x-large;
+    font-family: cursive;
+    margin-left: 15px;
+    margin-top: -50px;
+}
+
+span {
+    font-family: cursive;
+
+}
+
+.bottom-word {
+    font-size: larger;
+    margin-top: -15px;
+}
+
+.like-btn {
+    background-color: tan;
+    width: 105px;
+    height: 40px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 0px 2px black;
+
+}
+.definition {
+    font-size: 150%;
+    font-weight: bold;
+    position: relative;
+    left: 55px;
+    top: 60px;
+}
+
+.you-box {
+    width:340;
+    height: 215px;
+    position: relative;
+    left: 200px;
+    border: 5px solid black;
+    top: 2px;
+}
+
+.dojonary-word {
+    font-size: 230%;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#add-definition-btn {
+    width: 230px;
+    height: 60px;
+    background-color: green;
+    font-size: x-large;
+    border: 2px solid black;
+    box-shadow: 5px 6px 0px 2px black;
+    vertical-align: middle;
+    padding-left: 90px;
+    position: relative;
+    left: 20px;
+    bottom: 32px;
+}

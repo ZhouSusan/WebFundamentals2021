@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <!--Nav Bar-->
+        <div id="top-bar">
+            <h1 id="top-name">Network</h1>
+        </div>
+        <!--Main-->
+        <div id="main">
+            <div id="left-col">
+                <div id="user-card">
+                    <ul id="user-info">
+                        <li><img src="img/user-circle.png" alt="user_photo"></li>
+                        <li><a class="hyper-link left-link" href="#">Add an avatar</a></li>
+                        <li><h1 class="user-name left-name">James Doe</h1></li>
+                    </ul>
+                </div>
+            </div>
+            <!--right col-->
+            <div id="right-col">
+                <div id="top-main">
+                    <h2 id="right-header">Your Feed</h2>
+                </div>
+                <div class="user-like-box">
+                    <div class="user-likes">
+                        <h1 class="user-name shorter-name">Neil M</h1>
+                        <p class="num-likes"><span id="like1" >0</span> likes(s)</p>
+                        <button id="b1" class="like-btn right-side" onclick="addOne(this)">Like</button>
+                    </div>
+                    <p class="user-quotes">I just set up this new discord bot, let me<br>know what you all think. <a class="hyper-link" href="#">link</a></p>
+                </div>
+                <div class="user-like-box">
+                    <div class="user-likes">
+                        <h1 class="user-name">Nichole K</h1>
+                        <p class="num-likes"><span id="like2">0</span> likes(s)</p>
+                        <button id="b2" class="like-btn" onclick="addOne(this)">Like</button>
+                    </div>
+                    <p class="user-quotes">Just finished my <a class="hyper-link" href="#">next comic</a>, check it out.</p>
+                </div>    
+                <div class="user-like-box">
+                    <div class="user-likes">
+                        <h1 class="user-name shorter-name">Jim R</h1>
+                        <p class="num-likes"><span id="like3">0</span> likes(s)</p>
+                        <button id="b3" class="like-btn right-side" onclick="addOne(this)">Like</button>
+                    </div>
+                    <p class="user-quotes">I can't stop listening to the <a class="hyper-link" href="#">new album.</a><br>Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

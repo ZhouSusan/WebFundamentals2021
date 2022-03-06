@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Dojonary</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div id="container">
+        <div id="nav-bar">
+            <h1 id= "header-title">Dojonary</h1>
+            <input id="search-box" type="text" name="search" placeholder="Search">
+            <button onclick="logOut(this)" id="login-btn">Login</button>
+        </div>
+        <div id="main">
+            <div id="left-col">
+                <div class="content-box">
+                    <div class="word-info">
+                        <ul>
+                            <li><p class="top-word">ninja</p></li>
+                            <li><p class="mid-word">noun</p></li>
+                            <li><p class="bottom-word">Plural: <span>ninjas</span></p></li>
+                            <li><button class="like-btn" onclick="clickThis(this)">13 Likes</button></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="definition">A practitoner skiller in the <a href="#" class="hyper-link"><br>Japanese</a> art of <a href="#" class="hyper-link">ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="content-box">
+                    <div class="word-info">
+                        <ul>
+                            <li><p class="top-word">ninja</p></li>
+                            <li><p class="mid-word">noun</p></li>
+                            <li><p class="bottom-word">Plural: <span>ninjas</span></p></li>
+                            <li><button class="like-btn">37 Likes</button></li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="definition">A  <a href="#" class="hyper-link">programmer</a> who breaks<br> down problems with <a href="#" class="hyper-link">zen</a>-like<br>focus</p>
+                    </div>
+                </div>
+            </div>
+            <div id="right-col">
+                <div class="you-box">
+                    <p class="dojonary-word">Dojonary is<br> defined by <strong>You</strong></p>
+                    <input id="add-definition-btn" value="Add definition" onclick="hide(this)">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

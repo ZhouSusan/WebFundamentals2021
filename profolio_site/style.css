@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.row {
+  background-color: lavenderblush;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 200px
+}
+
+#profile_pic {
+  border-radius: 50%;
+  margin-left: 150px;
+  width: 100px;
+  height: 100px
+}
+
+.about-images {
+    width: 400px;
+    height: 150px;
+}
+
+#inner-last-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

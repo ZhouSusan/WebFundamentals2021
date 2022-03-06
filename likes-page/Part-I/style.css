@@ -1,0 +1,42 @@
+#container {
+    width: 450px;
+    height: 130px;
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    padding-left: 10px;
+    position: relative;
+    top: 35px;
+    left: 100px;
+}
+
+.user-likes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 80%;
+}
+
+.num-likes {
+    font-size: 152%;
+    margin-left: 60px;
+}
+
+.like-btn {
+    background-color: rgb(228, 203, 142);
+    width: 75px;
+    height: 35px;
+    font-size: larger;
+    font-weight: bolder;
+    border: 3px solid black;
+    box-shadow: 5px 2px 0px 2px black;
+    margin-right: 10px;
+}
+
+.user-quotes {
+    margin-top: 1px;
+    margin-left: 17px;
+    font-size: 140%;
+}
